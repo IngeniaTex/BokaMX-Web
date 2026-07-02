@@ -1,0 +1,39 @@
+export default function Section9() {
+  return (
+    <>
+      {/*================= Cta section start =================*/}
+      <section className="vl-cta-area">
+        <div className="container">
+          <div className="vl-cta-bg" data-background="./assets/img/cta/vl-cta-bg-1.1.png">
+          
+            <div className="row">
+              <div className="col-lg-5" />
+              <div className="col-lg-5">
+                <div className="vl-cta-content">
+                  <h3 className="title text-anime-style-3 pb-32">No esperes más, tu sonrisa merece lo mejor.
+                  Recupera tu confianza con tratamientos dentales de calidad en Boka.</h3>
+                  <div>
+                        <a 
+                            href="https://wa.me/527471619921" 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            className="whatsapp-button whatsapp-button--filled whatsapp-button--compact"
+                        >
+                            <i className="fab fa-whatsapp"></i>
+                            <span>WhatsApp</span>
+                        </a>
+                        </div>
+                </div>
+              </div>
+              <div className="col-lg-2">
+                <div className="vl-cta-shape d-none d-lg-block">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/*================= Cta section End =================*/}
+    </>
+  );
+}
