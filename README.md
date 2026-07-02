@@ -531,4 +531,3 @@ npm run start
 # Créditos
 
 Proyecto adaptado para Boka Clínica Dental a partir de un template dental base
-
